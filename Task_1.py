@@ -1,6 +1,13 @@
-while True:
-    num_1=int(input('Enter a number: '))
-    if num_1//2:
-        print(num_1, "is an even number")
-    else:
-        print (num_1, "is not an Odd number")
+a=int(input('Enter the first number: ' ))
+b=int(input('Enter the second number: '))
+c=a+b
+d=a-b
+e=a*b
+f=a/b
+
+
+print('Addition: ',c)
+print('Subtraction: ',d)
+print('Multiplication: ',e)
+print('Division: ',f)
+
